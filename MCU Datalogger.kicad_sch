@@ -2729,12 +2729,6 @@
 		(uuid "9d373de8-424e-4bd7-8dae-8c4fd97858b5")
 	)
 	(junction
-		(at 167.64 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e785616-4125-4340-b360-064795487d18")
-	)
-	(junction
 		(at 255.27 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2751,6 +2745,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3635c925-78ef-445d-9875-479e254fa936")
+	)
+	(junction
+		(at 166.37 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d76bf00-03b8-46fe-a90c-ba74efd8c0e6")
 	)
 	(junction
 		(at 152.4 60.96)
@@ -2777,16 +2777,16 @@
 		(uuid "6cb29f4f-0100-4553-b06d-c197935306df")
 	)
 	(junction
-		(at 167.64 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75a4fe41-81b1-4dbb-928d-a7389e8e84b9")
-	)
-	(junction
 		(at 152.4 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a638e60-1b56-4415-9b94-e42e21111036")
+	)
+	(junction
+		(at 166.37 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83fa3724-7c9c-4f96-bb65-28109d565ef1")
 	)
 	(junction
 		(at 237.49 40.64)
@@ -2883,16 +2883,6 @@
 	(no_connect
 		(at 190.5 50.8)
 		(uuid "e41061d4-9a28-4425-bb0d-ce0f82c43e0d")
-	)
-	(wire
-		(pts
-			(xy 179.07 72.39) (xy 167.64 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019b6dd0-0d71-4e3f-80cd-5359119d2ba5")
 	)
 	(wire
 		(pts
@@ -3036,16 +3026,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 60.96) (xy 167.64 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26a42e91-42a2-4813-93b6-546eb098fa09")
-	)
-	(wire
-		(pts
 			(xy 233.68 76.2) (xy 233.68 88.9)
 		)
 		(stroke
@@ -3106,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 62.23) (xy 167.64 60.96)
+			(xy 166.37 62.23) (xy 166.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3166,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 72.39) (xy 167.64 72.39)
+			(xy 166.37 60.96) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a56c12a-b0d9-4217-a70c-9b175176d374")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 166.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +3546,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 72.39) (xy 167.64 69.85)
+			(xy 166.37 72.39) (xy 166.37 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +3596,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 167.64 60.96)
+			(xy 166.37 72.39) (xy 179.07 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21beedc-8431-4596-9be9-71d719578f6f")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 166.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 167.64 66.04 90)
+		(at 166.37 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4285,7 +4285,7 @@
 		(fields_autoplaced yes)
 		(uuid "028d618c-6205-4419-9ed2-6f19eb8f405f")
 		(property "Reference" "Y2"
-			(at 171.45 64.7699 90)
+			(at 170.18 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4294,7 @@
 			)
 		)
 		(property "Value" "16 MHz"
-			(at 171.45 67.3099 90)
+			(at 170.18 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4303,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering"
-			(at 167.64 66.04 0)
+			(at 166.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 66.04 0)
+			(at 166.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4321,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 167.64 66.04 0)
+			(at 166.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4330,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 167.64 66.04 0)
+			(at 166.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
